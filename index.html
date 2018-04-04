@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping Cart Pedro Muñoz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Nav -->
+    <header id="header" class="header">
+        <div class="header__hamburguer ">
+            <a href="#" class="hamburguer-icon" id="menu-btn">menu</a>
+        </div>
+        <div class="header__logo"></div>
+        <div class="menu-wrapper" id="menu-wrapper">
+            <nav class="header__menu" id="menu">
+                <ul>
+                    <li class="header__menu__item"><a class="header__menu__link" href="#">Home</a></li>
+                    <li class="header__menu__item"><a class="header__menu__link" href="#">About</a></li>
+                    <li class="header__menu__item"><a class="header__menu__link active" href="#">Services</a></li>
+                    <li class="header__menu__item"><a class="header__menu__link" href="#">Gallery</a></li>
+                    <li class="header__menu__item"><a class="header__menu__link" href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__cart-button">
+            <a href="#" class="cart" id="cart-button"></a>
+        </div>
+    </header>
+    <!--Nav -->
+
+
+    <!-- overlay -->
+    <div class="overlay" id="overlay"></div>
+    <!-- overlay -->
+
+    <!-- Checkout -->
+    <section class="checkout" id="checkout">
+        <h3 class="title">cart</h3>
+        <ul class="checkout__list">
+           <li class="checkout__list__item">
+               <span class="quantity">1x</span>
+               Product Name
+               <p class="price">$9.99</p>
+               <a href="#" class="delete"></a>
+           </li>
+           <li class="checkout__list__item">
+                <span class="quantity">1x</span>
+                Product Name
+                <p class="price">$9.99</p>
+                 <a href="#" class="delete"></a>
+            </li>
+            <li class="checkout__list__item">
+                    <span class="quantity">1x</span>
+                    Product Name
+                    <p class="price">$9.99</p>
+                     <a href="#" class="delete"></a>
+            </li>
+        </ul>
+        <div class="checkout__total">
+            <p>Total</p>
+            <span class="price">$39.96</span>
+        </div>
+        <a href="#" class="checkout__btn">Checkout</a>
+    </section>
+    <!-- Checkout -->
+
+
+
+    <!-- Wrapper section items -->
+    <section class="wrapper">
+
+      <div class="info">
+          <h2 class="title">Shopping Cart <span> by Pedro Muñoz</span></h2>
+          <p class="right">original design by <a href="https://codyhouse.co/" target="_blank">CodyHouse</a></p>
+        <ul class="sociales">
+            <li class="sociales__item"><a class="sociales__link twitter" href="https://twitter.com/OrdepFrontend" target="_blank"><span class="fa fa-twitter"></span></a></li>
+            <li class="sociales__item"><a class="sociales__link instagram" href="https://instagram.com/ordep96"><span class="fa fa-instagram"></span></a></li>
+            <li class="sociales__item"><a class="sociales__link github" href="https://github.com/ordep96"><span class="fa fa-github"></span></a></li>
+            <li class="sociales__item"><a class="sociales__link codepen" href="https://codepen.io/ordep96"><span class="fa fa-codepen"></span></a></li>
+        </ul>
+      </div>
+
+      <div class="container gallery">
+        <div class="item gallery__item">
+            <img src="img/thumb.jpg" alt="">
+        </div>
+        <div class="item gallery__item">
+            <img src="img/thumb.jpg" alt="">
+        </div>
+        <div class="item gallery__item">
+            <img src="img/thumb.jpg" alt="">
+        </div>
+        <div class="item gallery__item">
+            <img src="img/thumb.jpg" alt="">
+        </div>
+        <div class="item gallery__item">
+            <img src="img/thumb.jpg" alt="">
+        </div>
+        <div class="item gallery__item">
+            <img src="img/thumb.jpg" alt="">
+        </div>
+        <div class="item gallery__item">
+            <img src="img/thumb.jpg" alt="">
+        </div>
+        <div class="item gallery__item">
+            <img src="img/thumb.jpg" alt="">
+        </div>
+        <div class="item gallery__item">
+            <img src="img/thumb.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- Wrapper section items -->
+<script src="js/hammer.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://use.fontawesome.com/d1ed67737b.js"></script>
+</body>
+</html>
